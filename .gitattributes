@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
++content/** filter=lfs diff=lfs merge=lfs size=100m -text
+*.uasset filter=lfs diff=lfs merge=lfs size=100m -text
+
